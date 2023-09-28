@@ -6,7 +6,7 @@ https://github.com/AnotherDayOfTrying/cmput404_lab_3
 
 ## Question 2: After starting a brand new Django application and running the runserver command, what does the browser show you?
 
-A landing page for django
+A landing page for django. There was rocket ship on it.
 
 ##  Question 3: After creating the first view within polls, what does the browser show you when navigating to / and to /polls respectively?
 
@@ -35,4 +35,4 @@ It always a bad idea to hardcode anything is expected or can change. We do not h
 
 ## Question 8: What are the benefits of using Django's generic views over writing views 'the hard way'? When should you use a generic view and when shouldn't you use a generic view?
 
-Generic views will handle most of the code. You should use a generic view if you need a quick and dirty method to get a view up and running with the bare minimum. Do not use a generic view if you want a custom webpage.
+Generic views will handle most of the code for a webpage. You will not need to create a template. You should use a generic view if you need a quick and dirty method to get a view up and running with the bare minimum. Do should not use a generic view if you want a custom webpage, webpage has some complexity to it.
