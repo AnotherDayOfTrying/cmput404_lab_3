@@ -32,9 +32,9 @@ admin.site.register(Question)
 
 ## Question 6: What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? What happens when you don’t put a number, and instead use a string? How would you modify the urls.py file to allow arbitrary alphabetic characters?
 
-`/polls/38/`: 404 Not Found
-`/polls/38/results`: 404 Not Found
-`/polls/38/vote`: 404 Not Found
+`/polls/38/`: 404 Not Found -> If question 38 exists then we will see question 38
+`/polls/38/results`: 404 Not Found -> If question 38 exists then we will see the results view for question 38
+`/polls/38/vote`: 404 Not Found -> If question 38 exists then we will see the vote view for question 38
 If you use a string instead of a number: 404 Not Found
 Using the `str` or `slug` path converters in the path url `i.e. <int:pk> -> <str:pk> or <slug:pk>`
 
